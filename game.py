@@ -7,10 +7,10 @@ print ("Вы: А во что?")
 print ("Компьютер: В числа! числа от 1 до 500!")
 print("Вы: Ну, давай попробуем.")
 while guess != secret and tries < 6:
-    guess = input("скажи число:")
-    if guess < secret :
+    guess = int(input("скажи число:"))
+    if guess < secret:
         print ("слишком мало!")
-    elif guess > secret :
+    elif guess > secret:
         print ("слишком много!")
 
     tries = tries + 1
