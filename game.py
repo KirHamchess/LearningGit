@@ -1,13 +1,13 @@
 import random
-secret = random.randint(1, 500)
+secret = random.randint(1, 100)
 guess = 0
 tries = 0
 print ("Компьютер: Привет! давно не виделись. Как же я по тебе скучал! Давай поиграем!")
 print ("Вы: А во что?")
-print ("Компьютер: В числа! числа от 1 до 500!")
+print ("Компьютер: В числа! числа от 1 до 100!")
 print("Вы: Ну, давай попробуем.")
-while guess != secret and tries < 6:
-    guess = int(input("скажи число:"))
+while guess != secret and tries < 10:
+    guess = int(input("число:"))
     if guess < secret:
         print ("слишком мало!")
     elif guess > secret:
