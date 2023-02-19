@@ -1,0 +1,11 @@
+a = 10
+b = 20
+c = 0
+print (a,b)
+c = b
+b = a
+a = c
+print (a,b)
+print ()
+print (no no noouuuuu)
+print (hi-hi-hi-ha)
